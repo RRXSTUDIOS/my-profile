@@ -68,7 +68,7 @@
         .orb-2 {
             width: 420px;
             height: 420px;
-            background: radial-gradient(circle, #5865F2, #312e81);
+            background: radial-gradient(circle, #38bdf8, #1d4ed8);
             bottom: -100px;
             right: -80px;
             animation-delay: -6s;
@@ -160,9 +160,9 @@
         /* --- PROFILE IMAGE & HEADER --- */
         .avatar-wrapper {
             position: relative;
-            width: 112px;
-            height: 112px;
-            margin: 0 auto 1.2rem;
+            width: 118px;
+            height: 118px;
+            margin: 0 auto 1.25rem;
         }
 
         .avatar-wrapper::before {
@@ -170,49 +170,5 @@
             position: absolute;
             inset: -3.5px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #ef4444, #e1306c, #5865F2);
-            z-index: -1;
-            animation: spinBorder 6s linear infinite;
-        }
-
-        @keyframes spinBorder {
-            0% { filter: hue-rotate(0deg); }
-            100% { filter: hue-rotate(360deg); }
-        }
-
-        .avatar {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid #0e0e13;
-        }
-
-        .name {
-            font-size: 1.75rem;
-            font-weight: 800;
-            letter-spacing: 0.04em;
-            margin-bottom: 0.35rem;
-            background: linear-gradient(to right, #ffffff, #e4e4e7);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .tagline {
-            font-size: 0.88rem;
-            color: #a1a1aa;
-            font-weight: 500;
-            margin-bottom: 1.3rem;
-        }
-
-        /* --- DETAILED BIO SECTION --- */
-        .bio-box {
-            background: rgba(255, 255, 255, 0.035);
-            border: 1px solid rgba(255, 255, 255, 0.07);
-            border-radius: 15px;
-            padding: 1rem 1.2rem;
-            margin-bottom: 1.8rem;
-            text-align: left;
-        }
-
-        .bio-title {
+            background: linear-gradient(135deg, #38bdf8, #ef4444, #3b82f6);
+            z-index: -
